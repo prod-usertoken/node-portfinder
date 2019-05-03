@@ -30,7 +30,7 @@
   "types": "./lib/portfinder.d.ts",
   "scripts": {
     "test": "vows test/*-test.js --spec",
-    "wip": "NODE_ENV=dev nyc -x='**/examples/*' -x='**/dist/*' -x='**/benchmark/*' -x='**/*balanced*.js' -x='**/test/*.js' -x='**/lib/*.js' ava --timeout=60000"
+    "wip": "mkdir -p .nyc_output && NODE_ENV=dev nyc -x='**/examples/*' -x='**/dist/*' -x='**/benchmark/*' -x='**/*balanced*.js' -x='**/test/*.js' -x='**/lib/*.js' ava --timeout=60000"
   },
   "engines": {
     "node": ">= 0.12.0"
