@@ -1,6 +1,6 @@
 # node-portfinder [![Build Status](https://api.travis-ci.org/indexzero/node-portfinder.svg)](https://travis-ci.org/indexzero/node-portfinder)
 
-** Hotfix to [highestPort](./lib/portfinder.js) crash
+** Hotfix to highest port crash for [ORIGINAL](https://github.com/indexzero/node-portfinder) source
 
 ```js
   // - port wrap-around to fix overflow
